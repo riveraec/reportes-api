@@ -30,7 +30,7 @@ async def lifespan(_app: FastAPI):
 app = FastAPI(
     title="reportes-api",
     version="0.1.0",
-    description="API fina sobre etl-reportes: disparar corridas y consultar resumen diario.",
+    description="API sobre etl-reportes: disparar corridas y consultar el resumen diario.",
     lifespan=lifespan,
 )
 
